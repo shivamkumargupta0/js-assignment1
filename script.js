@@ -64,6 +64,7 @@ clearAllBtn.addEventListener('click', () => {
 addSampleBtn.addEventListener('click', () => {
     const samples = [
         { t: "going for a event", d: "2020-10-19", c: "Conference", de: " web tech." },
+          { t: "gaming event", d: "2020-07-18", c: "Conference", de: " web tech." },
         
     ];
     samples.forEach(s => createEventCard(s.t, s.d, s.c, s.de));
